@@ -1,5 +1,4 @@
 % Smart Cradle System using IoT Simulation
-
 % Initialize variables
 bedHumidity = randi([30, 50]); % Random initial bed humidity (30-50%)
 wetness = randi([0, 100]); % Random initial wetness (0-100%)
@@ -15,7 +14,6 @@ while true
         % Send notification
         disp('WARNING: Baby is wet! Change diaper.');
     end
-    
     % Plot pie chart of bed humidity and wetness
     figure(1);
     labels = {'Bed Humidity', 'Wetness'};
